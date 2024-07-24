@@ -1,0 +1,154 @@
+body{background-image: url(imagenes_portafolio/oro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.f{
+height: 320px;
+width: 235px;
+}
+
+.f:hover{
+    height: 350px;
+    width: 250px;
+}
+
+.yo{
+    color: aliceblue;
+}
+
+.c{
+    color: aliceblue;
+}
+
+.insta{
+    width: 30px;
+}
+
+.n{
+    color:  rgb(211, 185, 37);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+.s{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.galeria{
+    justify-content: center;
+    display: flex;
+}
+
+.goku{
+    width: 300px;
+    height: 200px;
+}
+
+.caballo{
+    width: 30px;
+    height: 30px;
+}
+
+.gustos{
+    color: rgb(246, 250, 250);
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.yang{
+    width: 330px;
+    height: 290px;
+}
+
+.yin{
+    width: 300px;
+    height: 290px;
+}
+
+.por{
+    color: rgb(211, 185, 37);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sol{
+    width: 80px;
+    height: 80px;
+}
+
+.item{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.l{
+    color: rgb(211, 185, 37);
+    width: 100px;
+    background-color: black;
+    align-items: center;
+
+}
+
+.present{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tarjet{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.g{
+justify-content: center;
+}
+
+/* Inicio formulario */
+.contacto{
+    margin: 20px;
+    border: 1px solid gold;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 50px;
+    background-color:  gold;
+    box-shadow: 0px 5px 10px gold, 0 0 0 10px black inset;
+}
+.contacto label{
+    display: block; /* esto es para que el label se sobreponga a la caja de texto */
+    font-weight: bold;
+}
+.contacto div{
+    margin-bottom: 15px; /* esto los separara un poco */
+}
+/* fin formulario */
+
+/* inicio caja de texto */
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 250px; /* una longitud definida */
+    border: 1px solid #CED5D7;
+    resize: none; /* esta propiedad es para que el textarea no sea redimensionable */
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none; /* reset especifico para Chrome/Safari */
+    box-shadow:0 0 0 3px #dde9ec;
+}
+/* fin caja de texto */
+
+.d{
+    color: gold;
+    background-color: black;
+}
